@@ -1,0 +1,27 @@
+<!-- Spotlight -->
+<section class="spotlight {{ .style }}"{{ with .id }} id="{{ . }}"{{ end }}>
+    <div class="content">
+        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        <p>
+            <div class="strava-embed-placeholder"
+                data-embed-type="route"
+                {{ with .strava_activity_id }}data-embed-id="{{ . }}"{{ end }}
+                data-units="metric"
+                data-hide-elevation="true"
+                data-style="standard"
+                data-terrain="2d"
+                data-map-hash="8.53/50.5825/30.3535"
+                data-full-width="true"
+                data-from-embed="true">
+            </div>
+            <script src="https://strava-embeds.com/embed.js"></script>
+        </p>
+        {{ with .button }}<ul class="actions stacked">
+            <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
+        </ul>{{ end }}
+    </div>
+    {{ with .image }}<div class="image">
+        <img src="{{ . }}" alt="" />
+    </div>{{ end }}
+</section>

@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+	{{ partial "banner" site.Data.banner }}
+	{{ partial "spotlight" site.Data.year2014 }}
+	{{ partial "spotlight" site.Data.year2015 }}
+	{{ partial "spotlight" site.Data.year2016 }}
+	{{ partial "spotlight" site.Data.year2017 }}
+	{{ partial "spotlight" site.Data.year2018 }}
+	{{ partial "spotlight" site.Data.year2019 }}
+	{{ partial "spotlight" site.Data.year2020 }}
+	{{ partial "spotlight" site.Data.year2021 }}
+	{{ partial "spotlight" site.Data.year2022 }}
+	{{ partial "spotlight" site.Data.year2023 }}
+	{{ partial "spotlight" site.Data.year2024 }}
+	{{ partial "spotlight" site.Data.year2025 }}
+	{{ partial "gallery" site.Data.gallery }}
+	{{ partial "items" site.Data.items }}
+	{{ partial "elements" . }}
+	{{ partial "elements_reference" . }}
+	{{ partial "footer" . }}
+
+{{ end }}
