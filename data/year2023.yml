@@ -2,5 +2,5 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 title : "2023"
 content: |
   And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-strava_activity_id: 3392880018402880026
+strava_route_id: 3392880018402880026
 image: "images/spotlight03.jpg"
