@@ -17,9 +17,9 @@
             </div>
             <script src="https://strava-embeds.com/embed.js"></script>
         </p>
-        {{ with .button }}<ul class="actions stacked">
-            <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
-        </ul>{{ end }}
+        <ul class="actions stacked">
+            {{ with .title }}<li><a href="/gpx/Київська Сотка {{ . }}.gpx" class="button">Завантажити GPX</a></li>{{ end }}
+        </ul>
     </div>
     {{ with .image }}<div class="image">
         <img src="{{ . }}" alt="" />

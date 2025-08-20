@@ -4,7 +4,4 @@ title : "2015"
 content: |
   This is also a <strong>Spotlight</strong> element, and it's here because this demo would look a bit empty with just one spotlight. Like all spotlights, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
 strava_activity_id: 3392829125985329472
-button:
-  label: "Learn More"
-  link: "#"
 image: "images/spotlight02.jpg"
