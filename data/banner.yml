@@ -1,5 +1,5 @@
 ####################### Banner #########################
-style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+style: "style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Історія маршрутів Київської Сотки"
 subtitle: |
   11 років традицій аматорських велоперегонів в столиці
@@ -11,4 +11,4 @@ content : |
 button:
   label : "Поринути в історію маршрутів"
   link : "#year2014"
-image : "images/banner.jpg"
+image : "images/kc2018_bridge.jpg"
