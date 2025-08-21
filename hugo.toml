@@ -3,6 +3,7 @@
 ## -----------------------------------------------
 
 theme = "hugo-story"
+title = "Маршрути Київської Сотки"
 
 ## -----------------------------------------------
 ## Publish
@@ -32,8 +33,14 @@ disableKinds = ["taxonomy", "section"]
 ## -----------------------------------------------
 
 [Params]
+  description = "Маршрути Київської Сотки від самого початку до сьогодення"
+  logo = "images/kc_logo.png"
+  favicon = true
 
 [Params.social]
+  github = "https://github.com/alexandear"
+  instagram = "https://instagram.com/oleksandr.red"
+  linkedin = "https://linkedin.com/in/alexandear"
 
 [caches]
   [caches.images]
