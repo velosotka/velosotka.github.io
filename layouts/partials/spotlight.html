@@ -1,7 +1,7 @@
 <!-- Spotlight -->
-<section class="spotlight {{ .style }}"{{ with .id }} id="{{ . }}"{{ end }}>
+<section class="spotlight {{ .style }}" id="year{{ .title }}">
     <div class="content">
-        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .title }}<h2><a href="#year{{ . }}" id="year{{ . }}">{{ . }}</a></h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         {{ $gpx := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
         <!-- Must be an absolute URL for displaying with GPX Studio -->
