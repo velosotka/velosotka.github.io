@@ -2,10 +2,13 @@
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
 title : "Історія маршрутів Київської Сотки"
 subtitle: |
-  Велоперегони в Києві.
+  11 років традицій аматорських велоперегонів в столиці
 content : |
-  This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
+  Київська Сотка — це щорічний веломарафон на 100 км, що з 2014 року об’єднує тисячі учасників і вболівальників.
+  Подія виросла з ідеї створити у Києві змагання європейського рівня та швидко стала традицією.
+  Щороку маршрут змінюється, відкриваючи нові краєвиди й даруючи учасникам яскраві емоції.
+  Сотка — це не лише спорт, а й свято міста, атмосфера єдності, здорового духу та любові до велосипеду.
 button:
-  label : "Переглянути"
+  label : "Поринути в історію маршрутів"
   link : "#year2014"
 image : "images/banner.jpg"
