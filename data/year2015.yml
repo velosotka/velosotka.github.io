@@ -1,4 +1,4 @@
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+style: "style1 orient-left content-align-left image-position-right onscroll-image-fade-in"
 title : "2015"
 content: |
   Друга Київська Сотка пройшла <a href="https://web.archive.org/web/20150831064944/http://velo100ka.kiev.ua/">6 вересня 2015 року</a>.
@@ -9,4 +9,4 @@ content: |
 official_100_route_url: https://www.google.com/maps/d/edit?mid=zD6mL2JmusnY.kQu3VkzovR0M
 strava_100_route_id: 3392829125985329472
 strava_100_activity_id: 385963758
-image: "images/spotlight02.jpg"
+image: "images/kc2015_midrace.jpg"
