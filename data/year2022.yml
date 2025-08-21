@@ -1,5 +1,9 @@
-style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in invert"
 title : "2022"
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
-image: "images/spotlight03.jpg"
+  Через війну в Україні організатори провели <a href="https://www.facebook.com/velo100ka/posts/pfbid0277EpmtCDfGeBGBVJLn4euadk4GeJdWdbykeoBvYGc4VUdTwZgwha8k6hMrgBQLUCl">онлайн-версію</a> Київської Сотки.
+  Усі кошти з реєстрації були спрямовані на підтримку підрозділів ЗСУ.
+  Учасники могли проїхати будь-де дистанцію 80–100 км та отримати символічну медаль.
+  У період з 31 серпня по 7 жовтня свої треки надіслали близько <a href="https://timingevents.com/liveresult/81bbaf6e30fed1cb364bb4cebe252c76">300 велосипедистів</a> з усієї України.
+strava_100_activity_id: 7824358819
+image: "images/kc2022_war_edition.jpg"
