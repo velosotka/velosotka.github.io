@@ -2,6 +2,12 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 id: "year2014"
 title: "2014"
 content: |
-  Перша Київська Сотка.
+  Перша Київська Сотка відбулась <a href="https://web.archive.org/web/20140915190250/http://velo100ka.kiev.ua/">7 вересня 2014 року</a>.
+  Сто кілометрів асфальту — від парку Пушкіна й проспекту Перемоги, через Бучу та Гостомель, повз Дніпро й аж до Контрактової площі.
+  На старт вийшло <a href="https://velosotka.kyiv.ua/arhiv/sotka2014/rezultati/">пів тисячі учасників</a>.
+  Сотня кілометрів з мінімальним перепадом висот стала справжнім святом швидкості, витривалості й любові до велосипедного спорту.
+official_100_route_url: https://web.archive.org/web/20141101164311im_/http://velo100ka.kiev.ua/wp-content/uploads/2014/06/Kyivska-Sotka-2014-MAP1.png
 strava_100_route_id: 3392615129056017100
+strava_100_activity_id: 191251803
+strava_100_activity_user: "Єгора Панченко"
 image: "images/spotlight01.jpg"

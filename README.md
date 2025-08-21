@@ -1,9 +1,5 @@
 # Маршрути велоперегонів "Київська сотка"
 
-Embedded code:
-
-<div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="<ACTIVITY_ID>" data-units="metric" data-full-width="true" data-style="standard" data-terrain="2d" data-map-hash="8.54/50.5825/30.3535" data-from-embed="true"></div><script src="https://strava-embeds.com/embed.js"></script>
-
 ## 2025
 
 September 7
