@@ -3,22 +3,19 @@
     <div class="content">
         {{ with .title }}<h2>{{ . }}</h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ $gpx := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
+        <!-- Must be an absolute URL for displaying with GPX Studio -->
+        {{ $url := printf "https://velosotka.github.io%s" $gpx }}
         <p>
-            <div class="strava-embed-placeholder"
-                data-embed-type="route"
-                {{ with .strava_route_id }}data-embed-id="{{ . }}"{{ end }}
-                data-units="metric"
-                data-hide-elevation="true"
-                data-style="standard"
-                data-terrain="2d"
-                data-map-hash="8.53/50.5825/30.3535"
-                data-full-width="true"
-                data-from-embed="true">
-            </div>
-            <script src="https://strava-embeds.com/embed.js"></script>
+            {{ $url_state := querify "state" (printf "{\"urls\":[\"%s\"]}" $url) }}
+            {{ $iframe_url := printf "https://gpx.studio/?%s&embed&distance" $url_state }}
+            <iframe title="Route in GPX Studio" {{ printf "src=%q" $iframe_url | safeHTMLAttr }} width="100%" height="500" frameborder="0" allowfullscreen>
+            </iframe>
         </p>
-        <ul class="actions stacked">
-            {{ with .title }}<li><a href="/gpx/kyivska_sotka_{{ . }}.gpx" class="button">Завантажити GPX</a></li>{{ end }}
+        <ul class="actions">
+            <li><a href="{{ $gpx }}" class="button">GPX</a></li>
+            <li><a href="https://www.strava.com/routes/{{ .strava_100_route_id }}" class="button">Strava 100 км</a></li>
+            {{ with .strava_50_route_id }}<li><a href="https://www.strava.com/routes/{{ . }}" class="button">Strava 50 км</a></li>{{ end }}
         </ul>
     </div>
     {{ with .image }}<div class="image">
