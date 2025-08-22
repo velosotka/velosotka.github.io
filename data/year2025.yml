@@ -1,13 +1,18 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title: "2025"
 date: "September 7"
-# https://www.facebook.com/velo100ka/videos/1711859032773045/
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  <a href="https://www.facebook.com/watch/?v=1711859032773045" target="_blank">Маршрут</a> дванадцятої <a href="https://www.facebook.com/events/1201894305072261/" target="_blank">Київської Сотки</a> є міксом треків <a href="2018" class="smooth-scroll-middle">2018</a> та <a href="2023" class="smooth-scroll-middle">2023</a> років.
+  Старт на Контрактовій площі, а фініш - на ВДНГ.
+  Багато викличних підйомів, стрімких спусків та крутих поворотів
+  <blockquote>
+  Катайте, готуйтеся, але головне - підтримуйте Сили Оборони, своїх рідних та близьких, тримайте тіло та психіку в належному стані!
+  </blockquote>
 # GPX: https://drive.google.com/file/d/1fZQjSTOVjssb2NaVtWg0Uis-Q19cREmq/view?usp=sharing
 official_100_route_url: https://www.strava.com/routes/3388512756413297426
 # GPX: https://drive.google.com/file/d/17p91TaCrhpV3h2YwVV9sLjTypoQgk7eS/view?usp=sharing
 official_50_route_urL: https://www.strava.com/routes/3388831174691047186
 strava_100_route_id: 3392821429134855912
 strava_50_route_id: 3392822707185708570
+# https://www.facebook.com/watch/?v=1362111702109261
 image: ""

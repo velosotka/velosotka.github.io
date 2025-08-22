@@ -3,9 +3,17 @@ title: "2023"
 date: "September 3"
 # https://web.archive.org/web/20230921095117/https://velosotka.kyiv.ua/podiya-ta-format/
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  Незважаючи на війну в Україні, організатори вирішили відновити проведення Київської Сотки після <a href="#2022" class="smooth-scroll-middle">року</a> перерви.
+  Організатори <a href="https://www.facebook.com/velo100ka/posts/pfbid0QCDLgaqYoASNVDrtqFCdpRgktZMNMPqbRQSepdfRCEZ2KqZPEzNikQfDbr6nrKqYl" target="_blank">написали</a> наступне про маршрут:
+  <blockquote>
+  У викличний час не може бути простих маршрутів.
+  Ми знову повертаємось до Обухівсько-Васильківського напрямку. Так-так, знову: Вали, Космос (двічі), "Олімпійський трек" на самому кінці дистанції 🙂
+  Урочистий старт та зона нагородження на ВДНГ.
+  </blockquote>
 official_100_route_url: https://www.google.com/maps/d/u/2/edit?mid=1hLNDZ2r7G0tFVLoXo6_bpaygCFckCGc&usp=sharing
 official_50_route_urL: https://www.google.com/maps/d/viewer?mid=1g9Rpzw04J6-rLPiJccfrrPlfrozhKbk&ll=50.29826216365753%2C30.463413513183582&z=12
 strava_100_route_id: 3392880018402880026
 strava_50_route_id: 3392877714608321762
-image: ""
+strava_100_activity_id: 9773245080
+# https://www.facebook.com/photo/?fbid=808652544599601&set=a.808663501265172
+image: "images/kc2023_race.jpg"

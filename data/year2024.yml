@@ -2,10 +2,18 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 title: "2024"
 date: "September 1"
 # https://web.archive.org/web/20241009104729/https://velosotka.kyiv.ua/podiya-ta-format/
+# https://timingevents.com/results/25079570-kiyivska-sotka-2024.html
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  Одинадцята Київська Сотка проходила тим же маршрутом, що й роком раніше.
+  Внески учасників пішли на підтримку ЗСУ.
+  Організатори <a href="https://www.facebook.com/velo100ka/posts/pfbid02A7YEbp2j1vYpf9koLE2LSHieRS6eMd86iqb3V6P1zUvuAxFMtxqBN65sMmmCAXf2l" target="_blank">писали</a>:
+  <blockquote>
+  Особливо пишаємося, що в події взяли участь понад 70 військовослужбовців, дехто з них - після важких поранень, ампутацій та протезування.
+  Ці люди - пелетон честі та звитяги, зразок для всіх!
+  </blockquote>
 official_100_route_url: https://www.google.com/maps/d/u/2/edit?mid=1hLNDZ2r7G0tFVLoXo6_bpaygCFckCGc&usp=sharing
 official_50_route_urL: https://www.google.com/maps/d/viewer?mid=1g9Rpzw04J6-rLPiJccfrrPlfrozhKbk&ll=50.29826216365753%2C30.463413513183582&z=12
 strava_100_route_id: 3392879687341165082
 strava_50_route_id: 3392878865093705976
-image: ""
+strava_100_activity_id: 12297481457
+image: "images/kc2024_finish.jpg"
