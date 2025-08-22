@@ -11,4 +11,5 @@ content : |
 button:
   label : "Поринути в історію маршрутів"
   link : "#2014"
-image : "images/kc2018_bridge.jpg"
+# https://www.facebook.com/photo/?fbid=1899860146768441&set=p.1899860146768441
+image : "images/kc2018_khreschatyk.jpg"

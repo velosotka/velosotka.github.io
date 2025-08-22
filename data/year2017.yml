@@ -1,6 +1,14 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title : "2017"
+# https://bikeincity.com.ua/otcheti-kievskoy-sotki-2017/
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  Маршрут четвертої <a href="https://www.facebook.com/events/1876663169243643/">Київської Сотки</a> повторював маршрут <a href="#2016">другої</a>.
+  Богдан Воєводін після участі <a href="https://bikeincity.com.ua/sotka-za-2-30/">написав</a>:
+  <blockquote>Цьогорічна Сотка стала одним з найкращих спортівентів, які я бачив.
+  Титанічна робота. Все організовано суперово, речі надійно лежать у оргів, розмітка і волонтери на висоті, супровід, медична допомога, безліч спонсорів та ідеальне облаштування старту і фінішу.
+  До того ж рекордна кількість учасників — 1400!!!</blockquote>
+official_100_route_url: https://www.alltrails.com/explore/map/2017--2369
 strava_100_route_id: 3392837363597844728
-image: ""
+strava_100_activity_id: 1165703042
+# https://www.facebook.com/photo/?fbid=826904020816122&set=a.826898177483373
+image: "images/kc2017_start.jpg"
