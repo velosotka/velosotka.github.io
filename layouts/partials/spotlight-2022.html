@@ -5,7 +5,7 @@
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <ul class="actions">
             {{ with .strava_100_activity_ids }}
-                {{ range . }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Strava учасника</a></li>{{ end }}
+                {{ range . }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Учасник</a></li>{{ end }}
             {{ end }}
             </ul>
         </ul>

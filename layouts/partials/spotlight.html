@@ -3,22 +3,27 @@
     <div class="content">
         {{ with .title }}<h2><a href="#{{ . }}" id="{{ . }}">{{ . }}</a></h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ $gpx := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
-        <!-- Must be an absolute URL for displaying with GPX Studio -->
+        {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
+        {{ $gpx50 := printf "/gpx/kyivska_pivsotka_%s.gpx" .title }}
         <p>
-            {{ $url := printf "https://velosotka.github.io%s" $gpx }}
+            <!-- Must be an absolute URL for displaying with GPX Studio -->
+            {{ $url := printf "https://velosotka.github.io%s" $gpx100 }}
             {{ $url_state := querify "state" (printf "{\"urls\":[\"%s\"]}" $url) }}
             {{ $iframe_url := printf "https://gpx.studio/?%s&embed&distance&controls=false&distanceMarkers=true" $url_state }}
             <iframe title="Маршрут в GPX Studio" {{ printf "src=%q" $iframe_url | safeHTMLAttr }} width="100%" height="400" frameborder="0" allowfullscreen style="border-radius: 12px; overflow: hidden;">
             </iframe>
         </p>
         <ul class="actions">
-            {{ with .official_100_route_url }}<li><a href="{{ . }}" class="button primary small" target="_blank">Офіційний маршрут</a></li>{{ end }}
-            <li><a href="https://www.strava.com/routes/{{ .strava_100_route_id }}" class="button small" target="_blank">Strava</a></li>
-            <li><a href="{{ $gpx }}" class="button small icon fa-download">GPX</a></li>
+            {{ with .official_100_route_url }}<li><a href="{{ . }}" class="button primary small" target="_blank">Official</a></li>{{ end }}
             {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank">Live</a></li>{{ end }}
-            {{ with .strava_50_route_id }}<li><a href="https://www.strava.com/routes/{{ . }}" class="button small" target="_blank">Strava 50 км</a></li>{{ end }}
-            {{ with .strava_100_activity_id }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Strava учасника</a></li>{{ end }}
+            <li><a href="https://www.strava.com/routes/{{ .strava_100_route_id }}" class="button small" target="_blank">Strava</a></li>
+            <li><a href="{{ $gpx100 }}" class="button small icon fa-download">GPX</a></li>
+            {{ with .official_50_route_urL }}
+                <li><a href="{{ . }}" class="button small" target="_blank">Official 50</a></li>
+                <li><a href="https://www.strava.com/routes/{{ $.strava_50_route_id }}" class="button small" target="_blank">Strava 50</a></li>
+                <li><a href="{{ $gpx50 }}" class="button small icon fa-download">GPX 50</a></li>
+            {{ end }}
+            {{ with .strava_100_activity_id }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Учасник</a></li>{{ end }}
             </ul>
         </ul>
     </div>
