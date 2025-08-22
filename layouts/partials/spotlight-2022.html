@@ -4,7 +4,9 @@
         {{ with .title }}<h2><a href="#year{{ . }}" id="year{{ . }}">{{ . }}</a></h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <ul class="actions">
-            {{ with .strava_100_activity_id }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Активність учасника</a></li>{{ end }}
+            {{ with .strava_100_activity_ids }}
+                {{ range . }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Strava учасника</a></li>{{ end }}
+            {{ end }}
             </ul>
         </ul>
     </div>

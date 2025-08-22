@@ -17,7 +17,7 @@
             <li><a href="https://www.strava.com/routes/{{ .strava_100_route_id }}" class="button small">Strava</a></li>
             <li><a href="{{ $gpx }}" class="button small icon fa-download">GPX</a></li>
             {{ with .strava_50_route_id }}<li><a href="https://www.strava.com/routes/{{ . }}" class="button small">Strava 50 км</a></li>{{ end }}
-            {{ with .strava_100_activity_id }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Активність учасника</a></li>{{ end }}
+            {{ with .strava_100_activity_id }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Strava учасника</a></li>{{ end }}
             </ul>
         </ul>
     </div>
