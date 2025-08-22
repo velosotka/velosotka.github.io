@@ -2,9 +2,11 @@ style: "style1 orient-left content-align-left image-position-center onscroll-ima
 title: "2021"
 date: "September 5"
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  Маршрут Київської Сотки <a href="https://youtu.be/qedpfI3tT2s?si=nxWd-Eiacw816xgQ" target="_blank">проходив</a> по знайомими з <a href="#2020" class="smooth-scroll-middle">2020 року</a> місцинами - в Північно-Західному напрямку.
+  Прохолодного ранку 5 вересня стартувало понад 1800 спортсменів, які їхали мальовничими містами Київської області.
 official_100_route_url: https://www.strava.com/routes/2862977209184363728
 official_50_route_urL: https://www.strava.com/routes/2862691929235987228
 strava_100_route_id: 3392875779674652898
 strava_50_route_id: 3392875151979822052
-image: ""
+strava_100_activity_id: 5907754291
+image: "images/kc2021_forest.jpg"

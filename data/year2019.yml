@@ -1,12 +1,16 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title: "2019"
 date: "September 1"
-# https://www.youtube.com/live/4hEQQW8WSbo?si=hg7NwiKc9sUxDvLa
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  Маршут Київської Сотки повторював маршрут <a href="#2018" class="smooth-scroll-middle">2018 року</a>, але трішки зменшений по кілометражу.
+  Детальний огляд зробив Богдан Воєводін на <a href="https://bikeincity.com.ua/ogljad-marshrutu-kiivskoi-sotki-18/" target="_blank">BikeInCity</a>.
+  Цього року з'явилась дистанція 50 км для велолюбителів, що поки не готові до сотки, але дуже хочуть долучитися до події.
+  Також вперше велась онлайн трансляція змагань.
 official_100_route_url: https://www.alltrails.com/explore/map/c-2019-19-08/
 official_50_route_urL: https://www.alltrails.com/explore/map/2019-19-08
 strava_100_route_id: 3392864349903605274
-strava_50_route_id:
-strava_100_activity_id:
-image: ""
+strava_50_route_id: 3394047894235057724
+youtube: https://www.youtube.com/live/4hEQQW8WSbo?si=hg7NwiKc9sUxDvLa
+strava_100_activity_id: 2670081609
+# https://velosotka.kyiv.ua/arhiv/sotka2019/fotogalereya/#thumb_gp-359
+image: "images/kc2019_kosmos.jpg"

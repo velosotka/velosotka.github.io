@@ -2,10 +2,14 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 title: "2020"
 date: "September 6"
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  <a href="https://www.facebook.com/events/671896576640084/" target="_blank">Київська Сотка 2020</a> відбулася 6 вересня попри всі труднощі Пандемії.
+  Маршрут проклали знову на півночі: через Ірпінь, Бучу, Ворзель і Немішаєве.
+  Завдяки згуртованій команді, волонтерам і партнерам подія стала яскравим прикладом сили спільноти та любові до велосипеда.
 official_100_route_url: https://www.strava.com/routes/28214672
 official_50_route_urL: https://www.strava.com/routes/2735516099543634682
 strava_100_route_id: 3392869582932079588
 strava_50_route_id: 3392869996687310362
-strava_100_activity_id:
-image: ""
+strava_100_activity_id: 4018679759
+youtube: https://www.youtube.com/live/1EgtnCBUA1A?si=EUerh4qTnsXFgaCe
+# https://www.facebook.com/photo?fbid=1196061087446222
+image: "images/kc2020_start.jpg"
