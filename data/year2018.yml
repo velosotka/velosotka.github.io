@@ -2,7 +2,10 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 title : "2018"
 # https://bikeincity.com.ua/progres-76-36-abo-sotka-zdorovoi-ljudini/
 content: |
-  And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+  2 вересня Київська <a href="https://www.facebook.com/events/214081335836491/">Сотка</a> пройшла дорогами на південь від Києва, з непростими підйомами в Підгірцях та славнозвісному та культовому сегменті <a href="https://www.strava.com/segments/17646429">"Космос"</a>.
+  До команди організаторів <a href="https://bikeincity.com.ua/progres-76-36-abo-sotka-zdorovoi-ljudini/">долучився Богдан Воєводін</a>, що значно підвищило медійність та популярність проекту.
+official_100_route_url: https://www.alltrails.com/explore/map/2018--2405
 strava_100_route_id: 3391784691930796062
+strava_100_activity_id: 1814776306
 # https://www.facebook.com/photo?fbid=2174970015909951&set=pcb.312954169282540
 image: "images/kc2018_start.jpg"
