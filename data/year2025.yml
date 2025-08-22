@@ -1,7 +1,13 @@
 style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
-title : "2025"
+title: "2025"
+date: "September 7"
+# https://www.facebook.com/velo100ka/videos/1711859032773045/
 content: |
   And yes, this is another <strong>Spotlight</strong> element, and it's also here because I need to fill a bit of space. Naturally, like any other spotlight, you can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-spotlight">details</a>).
+# GPX: https://drive.google.com/file/d/1fZQjSTOVjssb2NaVtWg0Uis-Q19cREmq/view?usp=sharing
+official_100_route_url: https://www.strava.com/routes/3388512756413297426
+# GPX: https://drive.google.com/file/d/17p91TaCrhpV3h2YwVV9sLjTypoQgk7eS/view?usp=sharing
+official_50_route_urL: https://www.strava.com/routes/3388831174691047186
 strava_100_route_id: 3392821429134855912
 strava_50_route_id: 3392822707185708570
 image: ""
