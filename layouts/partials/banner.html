@@ -4,9 +4,19 @@
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ with .button }}<ul class="actions stacked">
-            <li><a href="{{ .link }}" class="button primary wide smooth-scroll-middle">{{ .label }}</a></li>
-        </ul>{{ end }}
+        <ul class="actions">
+            {{ with .buttons1 }}
+                {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll-middle">{{ . }}</a></li>{{ end }}
+            {{ end }}
+        </ul>
+        <ul class="actions">
+            {{ with .buttons2 }}
+                {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll-middle">{{ . }}</a></li>{{ end }}
+            {{ end }}
+        </ul>
+        <div class="actions">
+            <a href="#all" class="button primary small smooth-scroll-middle">Всі маршрути на карті</a>
+        </div>
     </div>
     {{ with .image }}<div class="image">
         <img src="{{.}}" alt="{{.}}" />

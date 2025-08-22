@@ -13,7 +13,7 @@
             </iframe>
         </p>
         <ul class="actions">
-            {{ with .official_100_route_url }}<li><a href="{{ . }}" class="button small">Офіційний маршрут</a></li>{{ end }}
+            {{ with .official_100_route_url }}<li><a href="{{ . }}" class="button primary small">Офіційний маршрут</a></li>{{ end }}
             <li><a href="https://www.strava.com/routes/{{ .strava_100_route_id }}" class="button small">Strava</a></li>
             <li><a href="{{ $gpx }}" class="button small icon fa-download">GPX</a></li>
             {{ with .strava_50_route_id }}<li><a href="https://www.strava.com/routes/{{ . }}" class="button small">Strava 50 км</a></li>{{ end }}
