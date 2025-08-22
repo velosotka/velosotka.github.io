@@ -1,7 +1,7 @@
 <!-- Spotlight -->
-<section class="spotlight {{ .style }}" id="year{{ .title }}">
+<section class="spotlight {{ .style }}" id="{{ .title }}">
     <div class="content">
-        {{ with .title }}<h2><a href="#year{{ . }}" id="year{{ . }}">{{ . }}</a></h2>{{ end }}
+        {{ with .title }}<h2><a href="#{{ . }}" id="{{ . }}">{{ . }}</a></h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <ul class="actions">
             {{ with .strava_100_activity_ids }}
