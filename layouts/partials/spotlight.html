@@ -57,6 +57,18 @@
                             }
                         }
                     }
+
+                    // Remove the Strava embed placeholder and its children
+                    var placeholder = document.querySelector('.strava-embed-placeholder');
+                    if (placeholder) {
+                        placeholder.innerHTML = ''; // Remove embed content
+                    }
+
+                    // Optionally, remove the embed.js script if you want to fully unload
+                    var embedScript = document.querySelector('script[src="https://strava-embeds.com/embed.js"]');
+                    if (embedScript) {
+                        embedScript.remove();
+                    }
                 });
             </script>
         </p>
