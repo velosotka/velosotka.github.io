@@ -61,7 +61,8 @@
             </script>
         </p>
         <ul class="actions">
-            {{ with .official_100_route_url }}<li><a href="{{ . }}" class="button primary small" target="_blank">Official</a></li>{{ end }}
+            <li><a href="#home" class="button primary small icon fa-home smooth-scroll">Нагору</a></li>
+            {{ with .official_100_route_url }}<li><a href="{{ . }}" class="button small" target="_blank">Official</a></li>{{ end }}
             {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank">Live</a></li>{{ end }}
             <li><a href="{{ $gpx100 }}" class="button small icon fa-download">GPX</a></li>
             {{ $gpx100Files := printf "[\"https://velosotka.github.io%s\"]" $gpx100 }}

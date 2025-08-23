@@ -1,17 +1,17 @@
 <!-- Banner -->
-<section class="banner {{ .style }}">
+<section class="banner {{ .style }}" id="{{ .id }}">
     <div class="content">
-        {{ with .title }}<h1>{{ . }}</h1>{{ end }}
+        {{ with .title }}<h1><a href="#{{ $.id }}" id="{{ $.id }}">{{ . }}</a></h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <ul class="actions">
             {{ with .buttons1 }}
-                {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll-middle">{{ . }}</a></li>{{ end }}
+                {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll">{{ . }}</a></li>{{ end }}
             {{ end }}
         </ul>
         <ul class="actions">
             {{ with .buttons2 }}
-                {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll-middle">{{ . }}</a></li>{{ end }}
+                {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll">{{ . }}</a></li>{{ end }}
             {{ end }}
         </ul>
         <ul class="actions">

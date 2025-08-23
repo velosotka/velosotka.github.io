@@ -4,6 +4,7 @@
         {{ with .title }}<h2><a href="#{{ . }}" id="{{ . }}">{{ . }}</a></h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <ul class="actions">
+            <li><a href="#home" class="button primary small icon fa-home smooth-scroll">Нагору</a></li>
             {{ with .strava_100_activity_ids }}
                 {{ range . }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Учасник</a></li>{{ end }}
             {{ end }}

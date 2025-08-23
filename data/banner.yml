@@ -1,5 +1,6 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right"
+id: home
 title: "Історія маршрутів Київської Сотки"
 subtitle: |
   11 років традицій велоперегонів у столиці
