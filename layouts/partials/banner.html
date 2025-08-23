@@ -14,9 +14,9 @@
                 {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll-middle">{{ . }}</a></li>{{ end }}
             {{ end }}
         </ul>
-        <div class="actions">
-            <a href="#all" class="button primary small smooth-scroll-middle">Всі маршрути на карті</a>
-        </div>
+        <ul class="actions">
+            <li><a href="{{ .gpx_all_url }}" class="button small primary" target="_blank">gpx.studio всі маршрути</a></li>
+        </ul>
     </div>
     {{ with .image }}<div class="image">
         <img src="{{.}}" alt="{{.}}" />

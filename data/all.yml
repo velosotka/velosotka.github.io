@@ -1,8 +1,0 @@
-style: "style2 fullscreen orient-center content-align-center image-position-center onscroll-image-fade-in onload-content-fade-right"
-title: "Всі маршрути"
-id: "all"
-content: |
-  <a href="https://gpx.studio/app?files=%5B%22https%3A%2F%2Fvelosotka.github.io%2Fgpx%2Fkyivska_sotka_2014.gpx%22%2C%22https%3A%2F%2Fvelosotka.github.io%2Fgpx%2Fkyivska_sotka_2015.gpx%22%2C%22https%3A%2F%2Fvelosotka.github.io%2Fgpx%2Fkyivska_sotka_2016.gpx%22%2C%22https%3A%2F%2Fvelosotka.github.io%2Fgpx%2Fkyivska_sotka_2018.gpx%22%2C%22https%3A%2F%2Fvelosotka.github.io%2Fgpx%2Fkyivska_sotka_2019.gpx%22%2C%22https%3A%2F%2Fvelosotka.github.io%2Fgpx%2Fkyivska_sotka_2020.gpx%22%2C%22https%3A%2F%2Fvelosotka.github.io%2Fgpx%2Fkyivska_sotka_2023.gpx%22%2C%22https%3A%2F%2Fvelosotka.github.io%2Fgpx%2Fkyivska_sotka_2025.gpx%22%5D#8.37/50.403/30.303" target="_blank">
-  Маршрути за всі роки проведення, за винятком повторних.
-  </a>
-image: "images/kc_all_years.jpg"
