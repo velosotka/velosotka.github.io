@@ -19,24 +19,43 @@
             </div>
             <script>
                 document.addEventListener('DOMContentLoaded', function() {
-                    var placeholder = document.querySelector('.strava-embed-placeholder');
-                    if ('IntersectionObserver' in window && placeholder) {
+                    var placeholders = document.querySelectorAll('.strava-embed-placeholder');
+                    var loadEmbedScript = function() {
+                        if (!document.querySelector('script[src="https://strava-embeds.com/embed.js"]')) {
+                            var script = document.createElement('script');
+                            script.src = 'https://strava-embeds.com/embed.js';
+                            document.body.appendChild(script);
+                        }
+                    };
+
+                    // Lazy load on scroll for all placeholders
+                    if ('IntersectionObserver' in window && placeholders.length) {
                         var observer = new IntersectionObserver(function(entries, observer) {
                             entries.forEach(function(entry) {
                                 if (entry.isIntersecting) {
-                                    var script = document.createElement('script');
-                                    script.src = 'https://strava-embeds.com/embed.js';
-                                    document.body.appendChild(script);
-                                    observer.disconnect();
+                                    loadEmbedScript();
+                                    observer.unobserve(entry.target);
                                 }
                             });
                         });
-                        observer.observe(placeholder);
+                        placeholders.forEach(function(placeholder) {
+                            observer.observe(placeholder);
+                        });
                     } else {
-                        // Fallback for unsupported browsers: load immediately
-                        var script = document.createElement('script');
-                        script.src = 'https://strava-embeds.com/embed.js';
-                        document.body.appendChild(script);
+                        // Fallback: load immediately
+                        loadEmbedScript();
+                    }
+
+                    // Load immediately if hash matches a section containing a placeholder
+                    var hash = window.location.hash;
+                    if (hash) {
+                        var section = document.getElementById(hash.replace('#', ''));
+                        if (section) {
+                            var sectionPlaceholder = section.querySelector('.strava-embed-placeholder');
+                            if (sectionPlaceholder) {
+                                loadEmbedScript();
+                            }
+                        }
                     }
                 });
             </script>
