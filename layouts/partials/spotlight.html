@@ -80,7 +80,7 @@
             {{ $gpx100Files := printf "[\"https://velosotka.github.io%s\"]" $gpx100 }}
             <li><a href="https://gpx.studio/app?files={{ $gpx100Files | safeHTMLAttr }}" class="button small" target="_blank">gpx.studio</a></li>
             {{ with .official_50_route_urL }}
-                <li><a href="{{ . }}" class="button small primary" target="_blank">Official 50</a></li>
+                <li><a href="{{ . }}" class="button small" target="_blank">Official 50</a></li>
                 <li><a href="{{ $gpx50 }}" class="button small icon fa-download">GPX 50</a></li>
             {{ end }}
             {{ with .strava_100_activity_id }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Учасник</a></li>{{ end }}
