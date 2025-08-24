@@ -6,71 +6,9 @@
         {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
         {{ $gpx50 := printf "/gpx/kyivska_pivsotka_%s.gpx" .title }}
         <p>
-            <div class="strava-embed-placeholder"
-                data-embed-type="route"
-                {{ with .strava_100_route_id }}data-embed-id="{{ . }}"{{ end }}
-                data-units="metric"
-                data-hide-elevation="true"
-                data-style="standard"
-                data-terrain="2d"
-                data-map-hash="{{ .strava_100_route_map_hash }}"
-                data-full-width="false"
-                data-from-embed="true">
-            </div>
-            <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    var placeholders = document.querySelectorAll('.strava-embed-placeholder');
-                    var loadEmbedScript = function() {
-                        if (!document.querySelector('script[src="https://strava-embeds.com/embed.js"]')) {
-                            var script = document.createElement('script');
-                            script.src = 'https://strava-embeds.com/embed.js';
-                            document.body.appendChild(script);
-                        }
-                    };
-
-                    // Lazy load on scroll for all placeholders
-                    if ('IntersectionObserver' in window && placeholders.length) {
-                        var observer = new IntersectionObserver(function(entries, observer) {
-                            entries.forEach(function(entry) {
-                                if (entry.isIntersecting) {
-                                    loadEmbedScript();
-                                    observer.unobserve(entry.target);
-                                }
-                            });
-                        });
-                        placeholders.forEach(function(placeholder) {
-                            observer.observe(placeholder);
-                        });
-                    } else {
-                        // Fallback: load immediately
-                        loadEmbedScript();
-                    }
-
-                    // Load immediately if hash matches a section containing a placeholder
-                    var hash = window.location.hash;
-                    if (hash) {
-                        var section = document.getElementById(hash.replace('#', ''));
-                        if (section) {
-                            var sectionPlaceholder = section.querySelector('.strava-embed-placeholder');
-                            if (sectionPlaceholder) {
-                                loadEmbedScript();
-                            }
-                        }
-                    }
-
-                    // Remove the Strava embed placeholder and its children
-                    var placeholder = document.querySelector('.strava-embed-placeholder');
-                    if (placeholder) {
-                        placeholder.innerHTML = ''; // Remove embed content
-                    }
-
-                    // Optionally, remove the embed.js script if you want to fully unload
-                    var embedScript = document.querySelector('script[src="https://strava-embeds.com/embed.js"]');
-                    if (embedScript) {
-                        embedScript.remove();
-                    }
-                });
-            </script>
+            {{ $mapHtml := printf "/routes/kyivska_sotka_%s" .title }}
+            <iframe title="{{ .title }}" frameborder="0" style="width: 100%; min-width: 300px; max-width: 100%; height: 400px; display: block; marginwidth: 0; marginheight: 0;"  src="{{ $mapHtml }}"></iframe>
+            <!-- <a href="{{ $mapHtml }}">Route</a> -->
         </p>
         <ul class="actions">
             <li><a href="#home" class="button primary small icon fa-home smooth-scroll">Нагору</a></li>

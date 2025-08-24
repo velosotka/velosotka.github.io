@@ -1,0 +1,5 @@
+---
+title: "Kyivska Sotka 2020"
+gpx_url: "/gpx/kyivska_sotka_2020.gpx"
+outputs: ["gpsmap"]
+---

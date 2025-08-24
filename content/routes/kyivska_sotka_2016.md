@@ -1,0 +1,5 @@
+---
+title: "Kyivska Sotka 2016"
+gpx_url: "/gpx/kyivska_sotka_2016.gpx"
+outputs: ["gpsmap"]
+---

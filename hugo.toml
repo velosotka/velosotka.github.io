@@ -45,3 +45,15 @@ disableKinds = ["taxonomy", "section"]
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[outputFormats]
+  [outputFormats.gpsmap]
+    mediaType = "text/html"
+    baseName = "index"
+    isPlainText = false
+    notAlternative = true
+    permalinkable = true
+
+[outputs]
+  home = ["HTML"]
+  page = ["HTML", "gpsmap"]
