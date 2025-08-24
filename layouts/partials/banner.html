@@ -4,9 +4,13 @@
         {{ with .title }}<h1><a href="#{{ $.id }}" id="{{ $.id }}">{{ . }}</a></h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        <div class="items style3 small">
+        <div class="items style3">
             {{ with .buttons }}
-            {{ range . }}<section><a href="#{{ . }}" class="button small smooth-scroll" title="{{ . }} рік">{{ . }}</a></section>{{ end }}
+                {{ range . }}
+                <span class="">
+                    <a href="#{{ . }}" class="button smooth-scroll" title="{{ . }} рік">{{ . }}</a>
+                </span>
+                {{ end }}
             {{ end }}
         </div>
     </div>
