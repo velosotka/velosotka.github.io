@@ -7,8 +7,7 @@
         {{ $gpx50 := printf "/gpx/kyivska_pivsotka_%s.gpx" .title }}
         <p>
             {{ $mapHtml := printf "/routes/kyivska_sotka_%s" .title }}
-            <iframe title="{{ .title }}" frameborder="0" style="width: 100%; min-width: 300px; max-width: 100%; height: 400px; display: block; marginwidth: 0; marginheight: 0;"  src="{{ $mapHtml }}"></iframe>
-            <!-- <a href="{{ $mapHtml }}">Route</a> -->
+            <iframe title="{{ .title }}" frameborder="0" class="" style="width: 100%; max-width: 100%; height: 400px; min-height: 200px; display: block; marginwidth: 0; marginheight: 0;" src="{{ $mapHtml }}"></iframe>
         </p>
         <ul class="actions">
             <li><a href="#home" class="button primary small icon fa-home smooth-scroll">Нагору</a></li>
