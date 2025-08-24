@@ -4,19 +4,11 @@
         {{ with .title }}<h1><a href="#{{ $.id }}" id="{{ $.id }}">{{ . }}</a></h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        <ul class="actions">
-            {{ with .buttons1 }}
-                {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll">{{ . }}</a></li>{{ end }}
+        <div class="items style3 small">
+            {{ with .buttons }}
+            {{ range . }}<section><a href="#{{ . }}" class="button small smooth-scroll">{{ . }}</a></section>{{ end }}
             {{ end }}
-        </ul>
-        <ul class="actions">
-            {{ with .buttons2 }}
-                {{ range . }}<li><a href="#{{ . }}" class="button small smooth-scroll">{{ . }}</a></li>{{ end }}
-            {{ end }}
-        </ul>
-        <ul class="actions">
-            <li><a href="{{ .gpx_all_url }}" class="button small primary" target="_blank">gpx.studio всі маршрути</a></li>
-        </ul>
+        </div>
     </div>
     {{ with .image }}<div class="image">
         <img src="{{.}}" alt="{{.}}" />
