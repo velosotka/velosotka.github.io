@@ -13,9 +13,9 @@ content: |
   </blockquote>
 official_100_route_url: https://www.google.com/maps/d/u/2/edit?mid=1hLNDZ2r7G0tFVLoXo6_bpaygCFckCGc&usp=sharing
 official_50_route_urL: https://www.google.com/maps/d/viewer?mid=1g9Rpzw04J6-rLPiJccfrrPlfrozhKbk&ll=50.29826216365753%2C30.463413513183582&z=12
-strava_100_route_url: http://strava.com/routes/3392879687341165082
+strava_100_route_url: https://strava.com/routes/3392879687341165082
 strava_100_route_map_hash: "9.42/50.3018/30.4563"
-strava_50_route_url: http://strava.com/routes/3392878865093705976
-strava_100_activity_url: http://strava.com/activities/12297481457
-strava_50_activity_url: http://strava.com/activities/12295278417
+strava_50_route_url: https://strava.com/routes/3392878865093705976
+strava_100_activity_url: https://strava.com/activities/12297481457
+strava_50_activity_url: https://strava.com/activities/12295278417
 image: "images/kc2024_finish.jpg"
