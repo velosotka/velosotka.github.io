@@ -8,10 +8,10 @@ content: |
   У період з 31 серпня по 7 жовтня свої треки надіслали близько <a href="https://timingevents.com/liveresult/81bbaf6e30fed1cb364bb4cebe252c76" target="_blank">300 велосипедистів</a> з усієї України.
   Один з учасників <a href="https://www.facebook.com/sergij.moskalec.644427/posts/pfbid02AGAcQb1pX45xiTmU3csYDfhUd3Dai61FY48iX8MSYViYUuB7sWfSJpaqnEmfkdkCl" target="_blank">Сергій Москалець</a>:
   <blockquote>Сьогодні, 24.09.2022, в рамках KC WAR Edition, проїхали з Володимиром Соколовим. Нам на двох 151 рік, Володимиру - 82</blockquote>
-strava_100_activity_ids:
-  - 7806893382
-  - 7806930653
-  - 7824358819
-  - 7823952968
+strava_100_finisher_urls:
+  - https://strava.com/activities/7806893382
+  - https://strava.com/activities/7806930653
+  - https://strava.com/activities/7824358819
+  - https://strava.com/activities/7823952968
 # https://www.facebook.com/photo/?fbid=623827485943315&set=pcb.623827869276610
 image: "images/kc2022_war_edition.jpg"

@@ -9,6 +9,7 @@ content: |
 official_100_route_url: https://www.alltrails.com/explore/recording/2016--2384
 strava_100_route_url: https://strava.com/routes/3392835118898009336
 strava_100_route_map_hash: "9.62/50.4877/30.2768"
-strava_100_activity_url: https://strava.com/activities/700292140
+strava_100_finisher_urls:
+  - https://strava.com/activities/700292140
 # https://www.facebook.com/photo/?fbid=1302458123128112&set=a.1302454053128519
 image: "images/kc2016_water.jpg"

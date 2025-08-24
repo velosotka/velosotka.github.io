@@ -16,6 +16,8 @@ official_50_route_urL: https://www.google.com/maps/d/viewer?mid=1g9Rpzw04J6-rLPi
 strava_100_route_url: https://strava.com/routes/3392879687341165082
 strava_100_route_map_hash: "9.42/50.3018/30.4563"
 strava_50_route_url: https://strava.com/routes/3392878865093705976
-strava_100_activity_url: https://strava.com/activities/12297481457
-strava_50_activity_url: https://strava.com/activities/12295278417
+strava_100_finisher_urls:
+  - https://strava.com/activities/12297481457
+strava_50_finisher_urls:
+  - https://strava.com/activities/12295278417
 image: "images/kc2024_finish.jpg"

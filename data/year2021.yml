@@ -9,5 +9,6 @@ official_50_route_urL: https://www.strava.com/routes/2862691929235987228
 strava_100_route_url: https://strava.com/routes/3392875779674652898
 strava_100_route_map_hash: "9.62/50.4968/30.2026"
 strava_50_route_url: https://strava.com/routes/3392875151979822052
-strava_100_activity_url: https://strava.com/activities/5907754291
+strava_100_finisher_urls:
+  - https://strava.com/activities/5907754291
 image: "images/kc2021_forest.jpg"
