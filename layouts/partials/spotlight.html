@@ -60,18 +60,18 @@
             </script>
         </p>
         <ul class="actions">
-            <li><a href="#home" class="button primary small icon fa-home smooth-scroll">Нагору</a></li>
-            {{ with .official_100_route_url }}<li><a href="{{ . }}" class="button small" target="_blank">Official</a></li>{{ end }}
-            {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank">Live</a></li>{{ end }}
-            <li><a href="{{ $gpx100 }}" class="button small icon fa-download">GPX</a></li>
-            {{ $gpx100Files := printf "[\"https://velosotka.github.io%s\"]" $gpx100 }}
-            <li><a href="https://gpx.studio/app?files={{ $gpx100Files | safeHTMLAttr }}" class="button small" target="_blank">gpx.studio</a></li>
+            <li><a href="#home" class="button primary small icon fa-home smooth-scroll">Вгору</a></li>
+            {{ with .strava_100_route_url }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-map" target="_blank">100</a></li>{{ end }}
+            <li><a href="{{ $gpx100 }}" class="button small icon fa-download">GPX 100</a></li>
             {{ with .official_50_route_urL }}
-                <li><a href="{{ . }}" class="button small" target="_blank">Official 50</a></li>
+                <li><a href="{{ $.strava_50_route_url }}" target="_blank" class="button small icon fa-map" target="_blank">50</a></li>
                 <li><a href="{{ $gpx50 }}" class="button small icon fa-download">GPX 50</a></li>
             {{ end }}
-            {{ with .strava_100_activity_id }}<li><a href="https://www.strava.com/activities/{{ . }}" class="button small" target="_blank">Учасник</a></li>{{ end }}
+            {{ with .strava_100_activity_url }}<li><a href="{{ . }}" class="button small icon fa-user" target="_blank">Фінішер</a></li>{{ end }}
             </ul>
+        </ul>
+        <ul class="actions">
+            {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank">Наживо</a></li>{{ end }}
         </ul>
     </div>
     {{ with .image }}<div class="image">

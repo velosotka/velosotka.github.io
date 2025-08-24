@@ -8,10 +8,10 @@ content: |
   Також вперше велась онлайн трансляція змагань.
 official_100_route_url: https://www.alltrails.com/explore/map/c-2019-19-08/
 official_50_route_urL: https://www.alltrails.com/explore/map/2019-19-08
-strava_100_route_id: 3392864349903605274
+strava_100_route_url: http://strava.com/routes/3392864349903605274
 strava_100_route_map_hash: "8.15/50.266/30.524"
-strava_50_route_id: 3394047894235057724
+strava_50_route_url: http://strava.com/routes/3394047894235057724
 youtube: https://www.youtube.com/live/4hEQQW8WSbo?si=hg7NwiKc9sUxDvLa
-strava_100_activity_id: 2670081609
+strava_100_activity_url: http://strava.com/activities/2670081609
 # https://velosotka.kyiv.ua/arhiv/sotka2019/fotogalereya/#thumb_gp-359
 image: "images/kc2019_kosmos.jpg"
