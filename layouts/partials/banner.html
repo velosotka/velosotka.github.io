@@ -6,7 +6,7 @@
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <div class="items style3 small">
             {{ with .buttons }}
-            {{ range . }}<section><a href="#{{ . }}" class="button small smooth-scroll">{{ . }}</a></section>{{ end }}
+            {{ range . }}<section><a href="#{{ . }}" class="button small smooth-scroll" title="{{ . }} рік">{{ . }}</a></section>{{ end }}
             {{ end }}
         </div>
     </div>

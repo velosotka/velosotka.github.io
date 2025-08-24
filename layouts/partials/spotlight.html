@@ -62,24 +62,24 @@
         {{ end }}
 
         <ul class="actions">
-            <li><a href="#home" class="button primary small icon fa-home smooth-scroll">Вгору</a></li>
+            <li><a href="#home" class="button primary small icon fa-home smooth-scroll" title="Вгору">Вгору</a></li>
             {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
             {{ with .strava_100_route_url }}
-            <li><a href="{{ . }}" target="_blank" class="button small icon fa-map" target="_blank">100</a></li>
-            <li><a href="{{ $gpx100 }}" class="button small icon fa-download">GPX 100</a></li>
+            <li><a href="{{ . }}" target="_blank" class="button small icon fa-map" target="_blank" title="Маршрут в Strava 100 км">100</a></li>
+            <li><a href="{{ $gpx100 }}" class="button small icon fa-download" title="Завантажити GPX для 100 км">GPX 100</a></li>
             {{ end }}
             {{ $gpx50 := printf "/gpx/kyivska_pivsotka_%s.gpx" .title }}
             {{ with .official_50_route_urL }}
-                <li><a href="{{ $.strava_50_route_url }}" target="_blank" class="button small icon fa-map" target="_blank">50</a></li>
-                <li><a href="{{ $gpx50 }}" class="button small icon fa-download">GPX 50</a></li>
+                <li><a href="{{ $.strava_50_route_url }}" target="_blank" class="button small icon fa-map" target="_blank" title="Маршрут в Strava 50 км">50</a></li>
+                <li><a href="{{ $gpx50 }}" class="button small icon fa-download" title="Завантажити GPX для 50 км">GPX 50</a></li>
             {{ end }}
             {{ with .strava_100_finisher_urls }}
-                {{ range . }}<li><a href="{{ . }}" class="button small" target="_blank">Фінішер</a></li>{{ end }}
+                {{ range . }}<li><a href="{{ . }}" class="button small" target="_blank" title="Активність в Strava фінішера 100 км">Фінішер</a></li>{{ end }}
             {{ end }}
             </ul>
         </ul>
         <ul class="actions">
-            {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank">Запис</a></li>{{ end }}
+            {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>{{ end }}
         </ul>
     </div>
     {{ with .image }}<div class="image">
