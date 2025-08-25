@@ -8,6 +8,12 @@ content: |
   <blockquote>
   Катайте, готуйтеся, але головне - підтримуйте Сили Оборони, своїх рідних та близьких, тримайте тіло та психіку в належному стані!
   </blockquote>
+  Огляди маршруту:
+    <ul>
+      <li><a href="https://youtu.be/KAVVM7P-BRk?si=fx0xxOF3r_J2RnlU" title="Updated 'Kyivska Sotka' route" target="_blank">KOSTYULIA</a></li>
+      <li><a href="https://youtu.be/bRMTpkLsTQI?si=zUTExnugJd43bEHT" title="Прикатка Київської велосотки 2025" target="_blank">Ihor</a></li>
+      <li><a href="https://www.youtube.com/live/RevY36MLdFQ?si=WJ-aELhJktlgEfI3" title="Велострім. Київська Сотка 2025" target="_blank">Станіслав VinylaWave</a></li>
+    </ul>
 # GPX: https://drive.google.com/file/d/1fZQjSTOVjssb2NaVtWg0Uis-Q19cREmq/view?usp=sharing
 official_100_route_url: https://www.strava.com/routes/3388512756413297426
 strava_100_route_map_hash: "8.49/50.3203/30.456"
@@ -16,4 +22,5 @@ official_50_route_urL: https://www.strava.com/routes/3388831174691047186
 strava_100_route_url: https://strava.com/routes/3392821429134855912
 strava_50_route_url: https://strava.com/routes/3392822707185708570
 # https://www.facebook.com/watch/?v=1362111702109261
-image: ""
+# https://www.strava.com/activities/15569367439
+image: "images/kc2025_before.jpg"
