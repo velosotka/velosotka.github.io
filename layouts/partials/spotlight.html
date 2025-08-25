@@ -5,9 +5,9 @@
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
 
         <ul class="actions">
-            <li><a href="#home" class="button primary small icon fa-home smooth-scroll" title="Вгору">Вгору</a></li>
             {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
             {{ with .strava_100_route_url }}
+            <li><a href="/routes/{{ $.title }}/" class="button primary small smooth-scroll" title="Глянути маршрут за {{ $.title }} рік">Переглянути</a></li>
             <li><a href="{{ . }}" target="_blank" class="button small icon fa-map" target="_blank" title="Маршрут в Strava 100 км">100</a></li>
             <li><a href="{{ $gpx100 }}" class="button small icon fa-download" title="Завантажити GPX для 100 км">GPX 100</a></li>
             {{ end }}
@@ -19,10 +19,13 @@
             {{ with .strava_100_finisher_urls }}
                 {{ range . }}<li><a href="{{ . }}" class="button small" target="_blank" title="Активність в Strava фінішера 100 км">Фінішер</a></li>{{ end }}
             {{ end }}
+            {{ with .youtube }}
+                <li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>
+            {{ end }}
             </ul>
         </ul>
         <ul class="actions">
-            {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>{{ end }}
+            <li><a href="#home" class="button primary small icon fa-home smooth-scroll fit" title="Вгору">Вгору</a></li>
         </ul>
     </div>
     {{ with .image }}<a href="{{ $.image_url }}" target="_blank" class="image">
