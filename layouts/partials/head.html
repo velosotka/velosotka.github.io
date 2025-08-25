@@ -5,8 +5,10 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	{{ if .Site.Params.favicon }}
-    {{ partial "opengraph.html" . }}
 	{{ partial "favicon" }}
+	{{ end }}
+	{{ if .Site.Params.images }}
+    {{ partial "opengraph.html" . }}
 	{{ end }}
 
 	<!-- CSS -->
