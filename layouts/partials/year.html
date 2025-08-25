@@ -17,7 +17,7 @@
                 <li><a href="{{ $gpx50 }}" class="button small icon fa-download" title="Завантажити GPX для 50 км">GPX 50</a></li>
             {{ end }}
             {{ with .strava_100_finisher_urls }}
-                {{ range . }}<li><a href="{{ . }}" class="button small" target="_blank" title="Активність в Strava фінішера 100 км">Фінішер</a></li>{{ end }}
+                {{ range . }}<li><a href="{{ . }}" class="button small icon fa-flag-checkered" target="_blank" title="Активність в Strava фінішера 100 км">Фінішер</a></li>{{ end }}
             {{ end }}
             {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>{{ end }}
         </ul>

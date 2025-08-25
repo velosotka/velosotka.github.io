@@ -5,7 +5,7 @@
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         <ul class="actions">
-            <li><a href="{{ .next }}" class="button smooth-scroll primary" title="Переглянути">Переглянути</a></li>
+            <li><a href="{{ .next }}" class="button smooth-scroll primary icon fa-eye" title="Переглянути">Переглянути</a></li>
         </ul>
     </div>
     {{ with .image }}<div class="image">
