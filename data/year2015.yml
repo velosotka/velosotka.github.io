@@ -1,8 +1,8 @@
-style: "style1 orient-left content-align-left image-position-right onscroll-image-fade-in"
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
 title: "2015"
 date: "September 6"
 content: |
-  Друга Київська Сотка пройшла <a href="https://web.archive.org/web/20150831064944/http://velo100ka.kiev.ua/" target="_blank">6 вересня 2015 року</a>.
+  Друга Київська Сотка пройшла <a href="https://www.facebook.com/events/421306964721211/" target="_blank">6 вересня 2015 року</a>.
   Маршрут проклали крізь мальовничі Ірпінь, Бучу та Ворзель.
   Дощ став не перепоною, а викликом — мокра траса лише додала азарту й красивих кадрів.
   <a href="https://velosotka.kyiv.ua/arhiv/sotka2015/rezultati/" target="_blank">Серед учасників</a> були зірки: олімпійський призер Леон ван Бон, чемпіон України Володимир Старчик, гонщики з Європи та навіть посол США Джеффрі Пайєт.
@@ -12,5 +12,5 @@ strava_100_route_url: https://strava.com/routes/3392829125985329472
 strava_100_route_map_hash: "9.42/50.4839/30.2149"
 strava_100_finisher_urls:
   - https://strava.com/activities/385963758
-# https://velosotka.kyiv.ua/arhiv/sotka2015/fotogalereya/#thumb_gp-292
+# https://www.facebook.com/photo/?fbid=1145581778803813&set=a.1145574605471197
 image: "images/kc2015_midrace.jpg"
