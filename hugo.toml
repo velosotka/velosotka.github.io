@@ -41,6 +41,8 @@ disableKinds = ["taxonomy", "section"]
   github = "https://github.com/alexandear"
   instagram = "https://instagram.com/oleksandr.red"
   linkedin = "https://linkedin.com/in/alexandear"
+  email = "oleksandr.red+velosotka@gmail.com"
+  telegram = "https://t.me/alexandear"
 
 [caches]
   [caches.images]
