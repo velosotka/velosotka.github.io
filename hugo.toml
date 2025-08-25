@@ -33,7 +33,9 @@ disableKinds = ["taxonomy", "section"]
 ## -----------------------------------------------
 
 [Params]
-  description = "Маршрути Київської Сотки від самого початку до сьогодення"
+  title = "Маршрути Київської Сотки"
+  description = "Маршрути велоперегонів Київська Сотка від 2014 року до сьогодення"
+  images = ["images/kc_with_route.jpg"]
   logo = "images/kc_logo.png"
   favicon = true
 

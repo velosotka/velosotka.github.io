@@ -5,9 +5,10 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	{{ if .Site.Params.favicon }}
+    {{ partial "opengraph.html" . }}
 	{{ partial "favicon" }}
 	{{ end }}
-	
+
 	<!-- CSS -->
 	{{ if hugo.IsServer }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
