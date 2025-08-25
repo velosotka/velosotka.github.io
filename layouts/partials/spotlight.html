@@ -4,63 +4,6 @@
         {{ with .title }}<h2><a href="#{{ . }}" id="{{ . }}">{{ . }}</a></h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
 
-        {{ $mapHtml := printf "/routes/kyivska_sotka_%s" .title }}
-        {{ with .strava_100_route_url }}
-        <p>
-            <div class="route-iframe-lazy" data-src="{{ $mapHtml }}" style="width: 100%; max-width: 100%; height: 400px; min-height: 200px; display: block;"></div>
-            <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    var lazyDivs = document.querySelectorAll('.route-iframe-lazy');
-                    if ('IntersectionObserver' in window && lazyDivs.length) {
-                        var observer = new IntersectionObserver(function(entries, observer) {
-                            entries.forEach(function(entry) {
-                                if (entry.isIntersecting) {
-                                    var lazyDiv = entry.target;
-                                    if (!lazyDiv.querySelector('iframe')) {
-                                        var iframe = document.createElement('iframe');
-                                        iframe.title = lazyDiv.getAttribute('data-title') || '';
-                                        iframe.frameBorder = '0';
-                                        iframe.style.width = '100%';
-                                        iframe.style.maxWidth = '100%';
-                                        iframe.style.height = '400px';
-                                        iframe.style.minHeight = '200px';
-                                        iframe.style.display = 'block';
-                                        iframe.style.marginWidth = '0';
-                                        iframe.style.marginHeight = '0';
-                                        iframe.src = lazyDiv.getAttribute('data-src');
-                                        lazyDiv.appendChild(iframe);
-                                    }
-                                    observer.unobserve(lazyDiv);
-                                }
-                            });
-                        });
-                        lazyDivs.forEach(function(lazyDiv) {
-                            observer.observe(lazyDiv);
-                        });
-                    } else {
-                        // Fallback: load all immediately
-                        lazyDivs.forEach(function(lazyDiv) {
-                            if (!lazyDiv.querySelector('iframe')) {
-                                var iframe = document.createElement('iframe');
-                                iframe.title = lazyDiv.getAttribute('data-title') || '';
-                                iframe.frameBorder = '0';
-                                iframe.style.width = '100%';
-                                iframe.style.maxWidth = '100%';
-                                iframe.style.height = '400px';
-                                iframe.style.minHeight = '200px';
-                                iframe.style.display = 'block';
-                                iframe.style.marginWidth = '0';
-                                iframe.style.marginHeight = '0';
-                                iframe.src = lazyDiv.getAttribute('data-src');
-                                lazyDiv.appendChild(iframe);
-                            }
-                        });
-                    }
-                });
-            </script>
-        </p>
-        {{ end }}
-
         <ul class="actions">
             <li><a href="#home" class="button primary small icon fa-home smooth-scroll" title="Вгору">Вгору</a></li>
             {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
