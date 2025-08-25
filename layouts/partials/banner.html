@@ -4,7 +4,9 @@
         {{ with .title }}<h1><a href="#{{ $.id }}" id="{{ $.id }}">{{ . }}</a></h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        <a href="{{ .next }}" class="button smooth-scroll primary" title="Переглянути">Переглянути</a>
+        <ul class="actions">
+            <li><a href="{{ .next }}" class="button smooth-scroll primary" title="Переглянути">Переглянути</a></li>
+        </ul>
     </div>
     {{ with .image }}<div class="image">
         <img src="{{.}}" alt="{{.}}" />
