@@ -40,11 +40,12 @@ disableKinds = ["taxonomy", "section"]
   favicon = true
 
 [Params.social]
-  github = "https://github.com/alexandear"
+  github = "https://github.com/velosotka/velosotka.github.io"
   instagram = "https://instagram.com/oleksandr.red"
   linkedin = "https://linkedin.com/in/alexandear"
   email = "oleksandr.red+velosotka@gmail.com"
   telegram = "https://t.me/alexandear"
+  strava = "https://www.strava.com/athletes/23735367"
 
 [caches]
   [caches.images]
