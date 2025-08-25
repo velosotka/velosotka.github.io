@@ -4,15 +4,7 @@
         {{ with .title }}<h1><a href="#{{ $.id }}" id="{{ $.id }}">{{ . }}</a></h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        <div class="items style3">
-            {{ with .buttons }}
-                {{ range . }}
-                <span class="">
-                    <a href="#{{ . }}" class="button smooth-scroll" title="{{ . }} рік">{{ . }}</a>
-                </span>
-                {{ end }}
-            {{ end }}
-        </div>
+        <a href="{{ .next }}" class="button smooth-scroll primary" title="Переглянути">Переглянути</a>
     </div>
     {{ with .image }}<div class="image">
         <img src="{{.}}" alt="{{.}}" />
