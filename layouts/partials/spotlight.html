@@ -25,7 +25,7 @@
             {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>{{ end }}
         </ul>
     </div>
-    {{ with .image }}<div class="image">
+    {{ with .image }}<a href="{{ $.image_url }}" target="_blank" class="image">
         <img src="{{ . }}" alt="{{ . }}" />
-    </div>{{ end }}
+    </a>{{ end }}
 </section>

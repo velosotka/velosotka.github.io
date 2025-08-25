@@ -13,5 +13,5 @@ strava_50_route_url: https://strava.com/routes/3392869996687310362
 strava_100_finisher_urls:
   - https://strava.com/activities/4018679759
 youtube: https://www.youtube.com/live/1EgtnCBUA1A?si=EUerh4qTnsXFgaCe
-# https://www.facebook.com/photo?fbid=1196061087446222
+image_url: https://www.facebook.com/photo?fbid=1196061087446222
 image: "images/kc2020_start.jpg"
