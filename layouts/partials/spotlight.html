@@ -4,10 +4,10 @@
         {{ with .title }}<h2><a href="#{{ . }}" id="{{ . }}">{{ . }}</a></h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
 
-        <ul class="actions">
+        <ul class="actions fit">
             {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
             {{ with .strava_100_route_url }}
-            <li><a href="/routes/{{ $.title }}/" class="button primary small smooth-scroll" title="Глянути маршрут за {{ $.title }} рік">Переглянути</a></li>
+            <li><a href="/routes/{{ $.title }}/" class="button icon fa-eye small smooth-scroll" title="Переглянути маршрут 100 км за {{ $.title }} рік">Глянути</a></li>
             <li><a href="{{ . }}" target="_blank" class="button small icon fa-map" target="_blank" title="Маршрут в Strava 100 км">100</a></li>
             <li><a href="{{ $gpx100 }}" class="button small icon fa-download" title="Завантажити GPX для 100 км">GPX 100</a></li>
             {{ end }}
@@ -19,13 +19,12 @@
             {{ with .strava_100_finisher_urls }}
                 {{ range . }}<li><a href="{{ . }}" class="button small" target="_blank" title="Активність в Strava фінішера 100 км">Фінішер</a></li>{{ end }}
             {{ end }}
-            {{ with .youtube }}
-                <li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>
-            {{ end }}
-            </ul>
+            {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>{{ end }}
         </ul>
         <ul class="actions">
-            <li><a href="#home" class="button primary small icon fa-home smooth-scroll fit" title="Вгору">Вгору</a></li>
+            <li><a href="#home" class="button primary small icon fa-home smooth-scroll" title="Вгору">Головна</a></li>
+            {{ with .registration_url }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-bicycle smooth-scroll" title="Зареєструватися на Київська Сотка {{ $.title }}">Реєстрація</a></li>{{ end }}
+            {{ with .participants_url }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-user smooth-scroll" title="Список учасників">Учасники</a></li>{{ end }}
         </ul>
     </div>
     {{ with .image }}<a href="{{ $.image_url }}" target="_blank" class="image">
