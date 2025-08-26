@@ -1,4 +1,4 @@
-style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in onscroll-content-fade-in"
 title: "2015"
 date: "September 6"
 content: |
