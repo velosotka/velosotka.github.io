@@ -8,7 +8,7 @@
             <li><a href="{{ .next }}" class="button smooth-scroll primary icon fa-eye" title="Переглянути">Переглянути</a></li>
         </ul>
     </div>
-    {{ with .image }}<div class="image">
-        <img src="{{.}}" alt="{{.}}" />
-    </div>{{end}}
+    {{ with .image }}<a href="{{ $.image_url }}" target="_blank" class="image">
+        <img src="{{ . }}" alt="{{ $.image_alt }}" title="{{ $.image_title }}" />
+    </a>{{end}}
 </section>

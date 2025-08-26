@@ -28,6 +28,6 @@
         </ul>
     </div>
     {{ with .image }}<a href="{{ $.image_url }}" target="_blank" class="image">
-        <img src="{{ . }}" alt="{{ . }}" />
+        <img src="{{ . }}" alt="{{ $.image_title }}" title="{{ $.image_title }}" />
     </a>{{ end }}
 </section>
