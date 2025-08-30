@@ -20,3 +20,15 @@ hugo serve
 ```
 
 Navigate to http://localhost:1313 after a successful start.
+
+### Development
+
+Use WebP with JPG as a fallback (thanks to @Por4ini):
+
+```sh
+brew install webp
+```
+
+```sh
+./scripts/convert-to-webp.sh
+```

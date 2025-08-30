@@ -28,6 +28,9 @@
         </ul>
     </div>
     {{ with .image }}<a href="{{ $.image_url }}" target="_blank" class="image">
-        <img src="{{ . }}" alt="{{ $.image_title }}" title="{{ $.image_title }}" />
+        <picture>
+            <source srcset="{{ replace . ".jpg" ".webp" }}" type="image/webp">
+            <img src="{{ . }}" alt="{{ $.image_title }}" title="{{ $.image_title }}" />
+        </picture>
     </a>{{ end }}
 </section>
