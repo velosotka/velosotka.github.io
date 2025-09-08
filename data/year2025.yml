@@ -21,9 +21,11 @@ strava_100_route_map_hash: "8.49/50.3203/30.456"
 official_50_route_urL: https://www.strava.com/routes/3388831174691047186
 strava_100_route_url: https://strava.com/routes/3392821429134855912
 strava_50_route_url: https://strava.com/routes/3392822707185708570
-# https://www.facebook.com/watch/?v=1362111702109261
-image_url: https://www.strava.com/activities/15569367439
-image: "images/kc2025_before.jpg"
-image_title: "Фото Олексія Морозова з прикатки маршруту"
-registration_url: https://e.ticketme.org/events/KC-2025
-participants_url: https://docs.google.com/spreadsheets/d/1PYa94CltM1Ki-OfwBaHeYsJ9VpLEYPLbAxUnObHymAI/edit?usp=sharing
+strava_100_finisher_urls:
+  - https://www.strava.com/activities/15725932469
+strava_50_finisher_urls:
+  - https://strava.com/activities/15724782280
+image_url: https://www.facebook.com/photo?fbid=2317743268644540&set=a.128932120859010
+image: "images/kc2025_velotrek.jpg"
+image_title: "Крутий поворот велотреку. Фото Serg Illy"
+results_url: https://timingevents.com/events/25179928
