@@ -11,6 +11,11 @@
     {{ partial "opengraph.html" . }}
 	{{ end }}
 
+	<!-- Source Sans 3: body/headings with Cyrillic; Literata: light Cyrillic italic for blockquotes -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@1,300&family=Source+Sans+3:ital,wght@0,300;0,400;1,300;1,400&display=swap">
+
 	<!-- CSS -->
 	{{ if hugo.IsServer }}
 	{{ $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "scss/main.scss" . | toCSS (dict "targetPath" "css/main.css" "outputStyle" "compressed" "enableSourceMap" false) }}
