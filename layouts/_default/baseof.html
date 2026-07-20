@@ -17,6 +17,36 @@
 		<!-- Wrapper -->
 		</div>
 
+		<style>
+			.scroll-top {
+				position: fixed;
+				right: 1.5rem;
+				bottom: 1.5rem;
+				z-index: 100;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 3rem;
+				height: 3rem;
+				border-radius: 50%;
+				background-color: #837164;
+				color: #ffffff;
+				box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.25);
+				border-bottom: none;
+				text-decoration: none;
+				opacity: 0.85;
+				transition: opacity 0.2s ease, transform 0.2s ease;
+			}
+			.scroll-top:hover {
+				opacity: 1;
+				transform: translateY(-2px);
+			}
+			.scroll-top::before {
+				margin: 0;
+			}
+		</style>
+		<a href="#home" class="scroll-top icon solid fa-arrow-up smooth-scroll" title="Нагору" aria-label="Нагору"></a>
+
 		{{ template "_internal/google_analytics.html" . }}
 		{{ partial "scripts" . }}
 

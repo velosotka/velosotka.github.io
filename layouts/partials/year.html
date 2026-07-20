@@ -1,4 +1,24 @@
 <!-- Spotlight -->
+<style>
+    .spotlight .content ul.actions {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+        gap: 0.75rem;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .spotlight .content ul.actions + ul.actions {
+        margin-top: 0.75rem;
+    }
+    .spotlight .content ul.actions li {
+        padding: 0;
+        width: auto;
+    }
+    .spotlight .content ul.actions .button.small {
+        width: 100%;
+        text-align: center;
+    }
+</style>
 <section class="spotlight {{ .style }}" id="{{ .title }}">
     <div class="content">
         {{ with .title }}<h2><a href="#{{ . }}" id="{{ . }}">{{ . }}</a></h2>{{ end }}
@@ -20,12 +40,7 @@
                 {{ range . }}<li><a href="{{ . }}" class="button small icon fa-flag-checkered" target="_blank" title="Активність в Strava фінішера 100 км">Фінішер</a></li>{{ end }}
             {{ end }}
             {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>{{ end }}
-        </ul>
-        {{ with .results_url }}<ul class="actions">
-            <li><a href="{{ . }}" target="_blank" class="button small icon fa-people-group smooth-scroll" title="Результати учасників">Результати</a></li>
-        </ul>{{ end }}
-        <ul class="actions">
-            <li><a href="#home" class="button primary small icon fa-home smooth-scroll" title="Вгору">Головна</a></li>
+            {{ with .results_url }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-people-group smooth-scroll" title="Результати учасників">Результати</a></li>{{ end }}
         </ul>
     </div>
     {{ with .image }}<a href="{{ $.image_url }}" target="_blank" class="image">
