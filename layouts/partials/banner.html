@@ -1,12 +1,60 @@
 <!-- Banner -->
+<style>
+    .year-timeline {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem 0.4rem;
+        position: relative;
+        max-width: 34rem;
+    }
+    .year-timeline__year {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.35rem;
+        padding-top: 1.9rem;
+        min-width: 3.4rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+        letter-spacing: 0.05rem;
+        border-bottom: none;
+        text-decoration: none;
+        box-shadow: none;
+        color: inherit;
+        transition: color 0.2s ease;
+    }
+    .year-timeline__year::before {
+        content: '';
+        position: absolute;
+        top: 0.55rem;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid currentColor;
+        transition: background 0.2s ease, transform 0.2s ease;
+    }
+    .year-timeline__year:hover,
+    .year-timeline__year:focus {
+        color: inherit;
+    }
+    .year-timeline__year:hover::before,
+    .year-timeline__year:focus::before {
+        background: currentColor;
+        transform: scale(1.25);
+    }
+</style>
 <section class="banner {{ .style }}" id="{{ .id }}">
     <div class="content">
         {{ with .title }}<h1><a href="#{{ $.id }}" id="{{ $.id }}">{{ . }}</a></h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        <ul class="actions">
-            <li><a href="{{ .next }}" class="button smooth-scroll primary icon fa-eye" title="Переглянути">Переглянути</a></li>
-        </ul>
+        <nav class="year-timeline" aria-label="Маршрути за роками">
+            {{ range seq 2014 2026 }}
+            <a href="#{{ . }}" class="year-timeline__year smooth-scroll" title="Маршрут за {{ . }} рік">{{ . }}</a>
+            {{ end }}
+        </nav>
     </div>
     {{ with .image }}<a href="{{ $.image_url }}" target="_blank" class="image">
         <picture>
