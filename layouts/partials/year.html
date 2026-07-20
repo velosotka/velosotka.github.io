@@ -39,7 +39,7 @@
             {{ with .strava_100_finisher_urls }}
                 {{ range . }}<li><a href="{{ . }}" class="button small icon fa-flag-checkered" target="_blank" title="Активність в Strava фінішера 100 км">Фінішер</a></li>{{ end }}
             {{ end }}
-            {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Запис трансляції події">Запис</a></li>{{ end }}
+            {{ with .youtube }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-video" target="_blank" title="Відео YouTube">YouTube</a></li>{{ end }}
             {{ with .results_url }}<li><a href="{{ . }}" target="_blank" class="button small icon fa-people-group smooth-scroll" title="Результати учасників">Результати</a></li>{{ end }}
         </ul>
     </div>
