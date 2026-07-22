@@ -18,6 +18,17 @@
         width: 100%;
         text-align: center;
     }
+    .button.bike:before {
+        content: '';
+        display: inline-block;
+        width: 0.9em;
+        height: 0.9em;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+        background: currentColor;
+        -webkit-mask: url('/images/bike.svg') no-repeat center / contain;
+        mask: url('/images/bike.svg') no-repeat center / contain;
+    }
 </style>
 <section class="spotlight {{ .style }}" id="{{ .title }}">
     <div class="content">
@@ -25,6 +36,7 @@
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
 
         <ul class="actions fit">
+            {{ with .registration_url }}<li><a href="{{ . }}" target="_blank" class="button small primary bike" title="Реєстрація на Київську Сотку {{ $.title }}">Реєстрація</a></li>{{ end }}
             {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
             {{ with .strava_100_route_url }}
             <li><a href="/routes/{{ $.title }}/" class="button icon fa-eye small smooth-scroll" title="Переглянути маршрут 100 км за {{ $.title }} рік">Глянути</a></li>

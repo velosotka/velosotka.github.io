@@ -42,12 +42,26 @@
     .year-timeline__year:focus::before {
         transform: scale(1.25);
     }
+    .button.bike:before {
+        content: '';
+        display: inline-block;
+        width: 0.9em;
+        height: 0.9em;
+        margin-right: 0.5rem;
+        vertical-align: middle;
+        background: currentColor;
+        -webkit-mask: url('/images/bike.svg') no-repeat center / contain;
+        mask: url('/images/bike.svg') no-repeat center / contain;
+    }
 </style>
 <section class="banner {{ .style }}" id="{{ .id }}">
     <div class="content">
         {{ with .title }}<h1><a href="#{{ $.id }}" id="{{ $.id }}">{{ . }}</a></h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .registration_url }}<ul class="actions">
+            <li><a href="{{ . }}" target="_blank" class="button primary bike">{{ $.registration_text }}</a></li>
+        </ul>{{ end }}
         <nav class="year-timeline" aria-label="Маршрути за роками">
             {{ range seq 2014 2026 }}
             <a href="#{{ . }}" class="year-timeline__year smooth-scroll" title="Маршрут за {{ . }} рік">{{ . }}</a>
