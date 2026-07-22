@@ -8,7 +8,6 @@ content: |
 official_100_route_url: https://www.strava.com/routes/28214672
 official_50_route_urL: https://www.strava.com/routes/2735516099543634682
 strava_100_route_url: https://strava.com/routes/3392869582932079588
-strava_100_route_map_hash: "9.62/50.4967/30.1873"
 strava_50_route_url: https://strava.com/routes/3392869996687310362
 strava_100_finisher_urls:
   - https://strava.com/activities/4018679759
