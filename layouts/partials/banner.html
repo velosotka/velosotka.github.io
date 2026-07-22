@@ -42,6 +42,18 @@
     .year-timeline__year:focus::before {
         transform: scale(1.25);
     }
+    .banner .actions {
+        margin-left: 0;
+        flex-wrap: wrap;
+        gap: 1rem 1.5rem;
+    }
+    .banner .actions li {
+        padding-left: 0;
+    }
+    .banner .actions .button {
+        width: 19em;
+        max-width: 100%;
+    }
     .button.bike:before {
         content: '';
         display: inline-block;
@@ -59,8 +71,9 @@
         {{ with .title }}<h1><a href="#{{ $.id }}" id="{{ $.id }}">{{ . }}</a></h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ with .registration_url }}<ul class="actions">
-            <li><a href="{{ . }}" target="_blank" class="button primary bike">{{ $.registration_text }}</a></li>
+        {{ if or .registration_url .training_url }}<ul class="actions">
+            {{ with .registration_url }}<li><a href="{{ . }}" target="_blank" class="button primary bike">{{ $.registration_text }}</a></li>{{ end }}
+            {{ with .training_url }}<li><a href="{{ . }}" target="_blank" class="button bike">{{ $.training_text }}</a></li>{{ end }}
         </ul>{{ end }}
         <nav class="year-timeline" aria-label="Маршрути за роками">
             {{ range seq 2014 2026 }}
