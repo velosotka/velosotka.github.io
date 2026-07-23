@@ -72,8 +72,8 @@
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
         {{ if or .registration_url .training_url }}<ul class="actions">
-            {{ with .registration_url }}<li><a href="{{ . }}" target="_blank" class="button primary bike">{{ $.registration_text }}</a></li>{{ end }}
-            {{ with .training_url }}<li><a href="{{ . }}" target="_blank" class="button bike">{{ $.training_text }}</a></li>{{ end }}
+            {{ with .registration_url }}<li><a href="{{ . }}" target="_blank" class="button primary bike">Реєстрація 2026</a></li>{{ end }}
+            {{ with .training_url }}<li><a href="{{ . }}" target="_blank" class="button icon fa-stopwatch">Підготуватись</a></li>{{ end }}
         </ul>{{ end }}
         <nav class="year-timeline" aria-label="Маршрути за роками">
             {{ range seq 2014 2026 }}
