@@ -41,12 +41,12 @@
             {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
             {{ with .strava_100_route_url }}
             <li><a href="/routes/{{ $.title }}/" class="button icon fa-eye small smooth-scroll" title="Переглянути маршрут 100 км за {{ $.title }} рік">Глянути</a></li>
-            <li><a href="{{ . }}" target="_blank" class="button small icon fa-map" target="_blank" title="Маршрут в Strava 100 км">100</a></li>
+            <li><a href="{{ . }}" target="_blank" class="button small icon brands fa-strava" target="_blank" title="Маршрут в Strava 100 км">100</a></li>
             <li><a href="{{ $gpx100 }}" class="button small icon fa-download" title="Завантажити GPX для 100 км">GPX 100</a></li>
             {{ end }}
             {{ $gpx50 := printf "/gpx/kyivska_pivsotka_%s.gpx" .title }}
             {{ with .official_50_route_urL }}
-                <li><a href="{{ $.strava_50_route_url }}" target="_blank" class="button small icon fa-map" target="_blank" title="Маршрут в Strava 50 км">50</a></li>
+                <li><a href="{{ $.strava_50_route_url }}" target="_blank" class="button small icon brands fa-strava" target="_blank" title="Маршрут в Strava 50 км">50</a></li>
                 <li><a href="{{ $gpx50 }}" class="button small icon fa-download" title="Завантажити GPX для 50 км">GPX 50</a></li>
             {{ end }}
             {{ with .strava_100_finisher_urls }}
