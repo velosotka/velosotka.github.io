@@ -54,10 +54,10 @@ disableKinds = ["taxonomy", "section"]
 [outputFormats]
   [outputFormats.gpsmap]
     mediaType = "text/html"
-    baseName = "index"
+    baseName = "map"
     isPlainText = false
     notAlternative = true
-    permalinkable = true
+    permalinkable = false
 
 [outputs]
   home = ["HTML"]
