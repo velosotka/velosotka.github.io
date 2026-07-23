@@ -6,6 +6,13 @@ content: |
   Треті міжнародні змагання Київська Сотка відбулись <a href="https://www.facebook.com/events/454120021464660/" target="_blank">4 вересня</a>.
   Приїхало та успішно фінішувало понад <a href="https://web.archive.org/web/20180909070741/http://velo100ka.kiev.ua/arhiv/sotka2018/rezultati/" target="_blank">900 учасників</a>.
   Маршрут нагадував <a href="https://www.facebook.com/velo100ka/posts/272086359843704" target="_blank">капелюха</a> з "Маленького Принца" Антуана де Сент-Екзюпері.
+route_info: |
+  <ul>
+    <li>Довжина: 94.2 км</li>
+    <li>Набір висоти: 536 м</li>
+    <li>Старт: Київ, Берестейський проспект за Кільцевою</li>
+    <li>Фініш: Київ, сквер імені Олени Теліги (Поляна КПІ)</li>
+  </ul>
 official_100_route_url: https://www.alltrails.com/explore/recording/2016--2384
 strava_100_route_url: https://strava.com/routes/3392835118898009336
 strava_100_finisher_urls:

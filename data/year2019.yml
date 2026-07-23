@@ -6,6 +6,13 @@ content: |
   Детальний огляд зробив Богдан Воєводін на <a href="https://bikeincity.com.ua/ogljad-marshrutu-kiivskoi-sotki-18/" target="_blank">BikeInCity</a>.
   Цього року з'явилась дистанція 50 км для велолюбителів, що поки не готові до сотки, але дуже хочуть долучитися до події.
   Також вперше велась онлайн трансляція змагань.
+route_info: |
+  <ul>
+    <li>Довжина: 102 км</li>
+    <li>Набір висоти: 668 м</li>
+    <li>Старт: Київ, Хрещатик</li>
+    <li>Фініш: Київ, урочище Теремки</li>
+  </ul>
 official_100_route_url: https://www.alltrails.com/explore/map/c-2019-19-08/
 official_50_route_urL: https://www.alltrails.com/explore/map/2019-19-08
 strava_100_route_url: https://strava.com/routes/3392864349903605274

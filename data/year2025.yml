@@ -8,12 +8,19 @@ content: |
   <blockquote>
   Катайте, готуйтеся, але головне - підтримуйте Сили Оборони, своїх рідних та близьких, тримайте тіло та психіку в належному стані!
   </blockquote>
-  Огляди маршруту:
+  <p>Огляди маршруту:</p>
     <ul>
       <li><a href="https://youtu.be/KAVVM7P-BRk?si=fx0xxOF3r_J2RnlU" title="Updated 'Kyivska Sotka' route" target="_blank">KOSTYULIA</a></li>
       <li><a href="https://youtu.be/bRMTpkLsTQI?si=zUTExnugJd43bEHT" title="Прикатка Київської велосотки 2025" target="_blank">Ihor</a></li>
       <li><a href="https://www.youtube.com/live/RevY36MLdFQ?si=WJ-aELhJktlgEfI3" title="Велострім. Київська Сотка 2025" target="_blank">Станіслав VinylaWave</a></li>
     </ul>
+route_info: |
+  <ul>
+    <li>Довжина: 81.1 км</li>
+    <li>Набір висоти: 496 м</li>
+    <li>Старт: Київ, Контрактова площа</li>
+    <li>Фініш: Київська область, Чабани</li>
+  </ul>
 # GPX: https://drive.google.com/file/d/1fZQjSTOVjssb2NaVtWg0Uis-Q19cREmq/view?usp=sharing
 official_100_route_url: https://www.strava.com/routes/3388512756413297426
 # GPX: https://drive.google.com/file/d/17p91TaCrhpV3h2YwVV9sLjTypoQgk7eS/view?usp=sharing

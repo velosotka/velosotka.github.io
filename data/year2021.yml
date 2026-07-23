@@ -4,6 +4,13 @@ date: "September 5"
 content: |
   Маршрут Київської Сотки <a href="https://youtu.be/qedpfI3tT2s?si=nxWd-Eiacw816xgQ" target="_blank">проходив</a> по знайомими з <a href="#2020" class="smooth-scroll-middle">2020 року</a> місцинами - в Північно-Західному напрямку.
   Прохолодного ранку 5 вересня стартувало понад 1800 спортсменів, які їхали мальовничими містами Київської області.
+route_info: |
+  <ul>
+    <li>Довжина: 95.6 км</li>
+    <li>Набір висоти: 472 м</li>
+    <li>Старт: Київ, Святошин</li>
+    <li>Фініш: Київ, Святошин</li>
+  </ul>
 official_100_route_url: https://www.strava.com/routes/2862977209184363728
 official_50_route_urL: https://www.strava.com/routes/2862691929235987228
 strava_100_route_url: https://strava.com/routes/3392875779674652898

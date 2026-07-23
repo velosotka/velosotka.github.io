@@ -1,5 +1,11 @@
 <!-- Spotlight -->
 <style>
+    .spotlight .content p {
+        margin-bottom: 1rem;
+    }
+    .spotlight .content p ul {
+        margin-bottom: 0;
+    }
     .spotlight .content ul.actions {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
@@ -34,6 +40,7 @@
     <div class="content">
         {{ with .title }}<h2><a href="#{{ . }}" id="{{ . }}">{{ . }}</a></h2>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        {{ with .route_info }}<p>Маршрут: {{ . | safeHTML }}</p>{{ end }}
 
         <ul class="actions fit">
             {{ with .registration_url }}<li><a href="{{ . }}" target="_blank" class="button small primary bike" title="Реєстрація на Київську Сотку {{ $.title }}">Реєстрація</a></li>{{ end }}
