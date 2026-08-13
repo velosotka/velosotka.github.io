@@ -1,8 +1,10 @@
 ---
 title: "Підготую до Київської Сотки"
 outputs: ["HTML"]
-image: "images/training_kyivska_sotka_route.jpg"
+image: "images/training/kyivska_sotka_route_velogo.webp"
 image_title: "Підготовка до Київської Сотки"
+about_image: "images/training/about_me.webp"
+about_image_title: "Олександр — тренер з підготовки до Київської Сотки"
 about: |
   Мене звати **Олександр**. Навчаю техніці володіння велосипедом у команді [Sigma Software — Unicorn](https://volovod.com/): від упевненого проходження поворотів до роботи в групі на швидкості.
 
