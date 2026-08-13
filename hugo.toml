@@ -45,7 +45,7 @@ disableKinds = ["taxonomy", "section"]
   linkedin = "https://linkedin.com/in/alexandear"
   # email = "oleksandr.red+velosotka@gmail.com"
   telegram = "https://t.me/alexandear"
-  # strava = "https://www.strava.com/athletes/23735367"
+  strava = "https://www.strava.com/athletes/alexandear"
 
 [caches]
   [caches.images]

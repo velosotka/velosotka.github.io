@@ -20,7 +20,7 @@ route_info: |
     <li>Фініш: Київська область, Буча, міський парк</li>
   </ul>
 registration_url: https://timingevents.com/events/25180066
-training_url: https://www.instagram.com/oleksandr.red/
+training_url: /training/
 # Official Strava 100: https://www.strava.com/routes/3512397800787309972
 official_100_route_url: "https://www.google.com/maps/d/u/1/viewer?mid=1JJzLzNW1lsSwIJLNxuWGBrq8aGVI84c&ll=50.6874704026872%2C30.144639999999992&z=11"
 strava_100_route_url: https://www.strava.com/routes/3522959571936861450
