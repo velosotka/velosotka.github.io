@@ -44,7 +44,7 @@
 
         <ul class="actions fit">
             {{ with .registration_url }}<li><a href="{{ . }}" target="_blank" class="button small primary bike" title="Реєстрація на Київську Сотку {{ $.title }}">Реєстрація</a></li>{{ end }}
-            {{ with .training_url }}<li><a href="{{ . }}" target="_blank" class="button small primary bike" title="Підготуватись до Київської Сотки {{ $.title }}">Підготуватись</a></li>{{ end }}
+            {{ with .training_url }}<li><a href="{{ . }}" class="button small primary bike" title="Підготуватись до Київської Сотки {{ $.title }}">Підготуватись</a></li>{{ end }}
             {{ $gpx100 := printf "/gpx/kyivska_sotka_%s.gpx" .title }}
             {{ with .strava_100_route_url }}
             <li><a href="/routes/{{ $.title }}/" class="button icon fa-eye small smooth-scroll" title="Переглянути маршрут 100 км за {{ $.title }} рік">Глянути</a></li>
