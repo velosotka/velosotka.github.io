@@ -45,7 +45,7 @@
 				margin: 0;
 			}
 		</style>
-		{{ if .IsHome }}<a href="#home" class="scroll-top icon solid fa-arrow-up smooth-scroll" title="Нагору" aria-label="Нагору"></a>{{ end }}
+		<a href="{{ if .IsHome }}#home{{ else }}#wrapper{{ end }}" class="scroll-top icon solid fa-arrow-up smooth-scroll" title="Нагору" aria-label="Нагору"></a>
 
 		{{ template "_internal/google_analytics.html" . }}
 		{{ partial "scripts" . }}
