@@ -52,7 +52,7 @@
             <li><a href="{{ $gpx100 }}" class="button small icon fa-download" title="Завантажити GPX для 100 км">GPX 100</a></li>
             {{ end }}
             {{ $gpx50 := printf "/gpx/kyivska_pivsotka_%s.gpx" .title }}
-            {{ with .official_50_route_urL }}
+            {{ with .official_50_route_url }}
                 <li><a href="{{ $.strava_50_route_url }}" target="_blank" class="button small icon brands fa-strava" target="_blank" title="Маршрут в Strava 50 км">50</a></li>
                 <li><a href="{{ $gpx50 }}" class="button small icon fa-download" title="Завантажити GPX для 50 км">GPX 50</a></li>
             {{ end }}
