@@ -24,6 +24,7 @@ route_info: |
 registration_url: https://timingevents.com/events/25180066
 registration_online_url: https://timingevents.com/events/25180089
 training_url: /training/
+# Official GPX: https://drive.google.com/drive/folders/15lyRigOJ0rr2xdgThcIW2R3uzsjTqidR
 # Official Strava 100: https://www.strava.com/routes/3512397800787309972
 official_100_route_url: "https://www.google.com/maps/d/u/1/viewer?mid=1JJzLzNW1lsSwIJLNxuWGBrq8aGVI84c&ll=50.6874704026872%2C30.144639999999992&z=11"
 strava_100_route_url: https://www.strava.com/routes/3526697406881899008
