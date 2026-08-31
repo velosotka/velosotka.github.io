@@ -2,18 +2,10 @@ style: "style1 orient-right content-align-left image-position-center onscroll-im
 title: "2026"
 date: "August 30"
 content: |
-  Вперше за всі роки Київська Сотка <a href="https://www.facebook.com/velo100ka/posts/pfbid02hRSZWSEUiWuFkUFJFjdLuAq15KHFR2Pn2bCd41d5b3DkLgosp9a5aTUbWSuTY7whl" target="_blank">відбудеться в заключну неділю літа</a>, а не у вересні.
-  Старт та фініш відбудеться в місті <a href="https://www.instagram.com/p/DbGO39giL-q/" target="_blank">Буча</a>.
-  Організатори <a href="https://www.instagram.com/p/Da8SNziizvD/" target="_blank">пояснили</a> це рішення:
-  <blockquote>
-  Ще до повномасштабного вторгнення Міська рада Бучі пропонувала нам провести перегони зі стартом та фінішем в місті.
-  І цього року така нагода трапилась!
-  Наш близький приятель і постійний учасник Сотки запропонував об’єднати святкування 100-річчя компанії UTEM та проведення Київської Сотки 2026,
-  включити нашу спортивну подію в серію ювілейних урочистостей.
-  Ми дуже раді такому партнерству та скористаємось приводом насолодитись краєвидами північної Київщини.
-  </blockquote>
-  Також доступна можливість взяти участь в <a href="https://www.instagram.com/p/DcNjAS-iBxB/" target="_blank">онлайн форматі</a> у будь-якій точці світу.
-  Всі гроші від реєстрацій будуть спрямовані на благодійність.
+  Вперше за всі роки Київська Сотка <a href="https://www.facebook.com/velo100ka/posts/pfbid02hRSZWSEUiWuFkUFJFjdLuAq15KHFR2Pn2bCd41d5b3DkLgosp9a5aTUbWSuTY7whl" target="_blank">відбулась в заключну неділю літа</a>, а не у вересні.
+  Старт та фініш дали в місті <a href="https://youtu.be/4_NRCwFBlHg" target="_blank">Буча</a> під дощем.
+  Попри нескінченні тривоги, вдалось провести спортивну частину заходу.
+  У зв'язку з оголошеним напередодні Днем жалоби, всі музичні активності та нагородження перенесли на пізніше.
 route_info: |
   <ul>
     <li>Довжина: 96.4 км</li>
@@ -21,7 +13,6 @@ route_info: |
     <li>Старт: Київська область, Буча, міський парк</li>
     <li>Фініш: Київська область, Буча, міський парк</li>
   </ul>
-registration_url: https://timingevents.com/events/25180066
 registration_online_url: https://timingevents.com/events/25180089
 training_url: /training/
 # Official GPX: https://drive.google.com/drive/folders/15lyRigOJ0rr2xdgThcIW2R3uzsjTqidR
@@ -31,6 +22,12 @@ strava_100_route_url: https://www.strava.com/routes/3526697406881899008
 # Official Strava 50: https://www.strava.com/routes/3512424188936421708
 official_50_route_url: "https://www.google.com/maps/d/u/1/viewer?mid=1Khd89PR2iPDY3pQeDfYPUH1E0YBVihw&ll=50.60878531580054%2C30.121764999999993&z=12"
 strava_50_route_url: https://www.strava.com/routes/3522961967656109052
-image_url: https://www.facebook.com/photo/?fbid=1628194672645380&set=a.749448627186660
-image: "images/kc2026_logo.jpg"
+strava_100_finisher_urls:
+  - https://www.strava.com/activities/19962607662
+  - https://www.strava.com/activities/19959594257
+  - https://www.strava.com/activities/19961551077
+strava_50_finisher_urls:
+  - https://www.strava.com/activities/19968516224
+image_url: https://photos.app.goo.gl/15AWvPMSaoGW6dor7
+image: "images/kc2026_klo.jpg"
 results_url: https://timingevents.com/results/25180092
